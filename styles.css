@@ -11,6 +11,14 @@ body {
 	background-image: url(../Meteroic/img/pexels-photo-30257.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
+    background-repeat: no-repeat !important; 
+background-size: cover !important;
+background-position: center !important;
+background-attachment: fixed !important;
+-webkit-background-size: cover !important;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;
     padding-top: 50px;
 	padding-bottom: 20px;
 	color: rgba(255,255,255,0.8);
@@ -31,6 +39,7 @@ body {
 	padding: 1em;
 	 -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(-5px 6px 5px rgba(0,0,0,0.5));
+  
 	
 }
 .avatar {
@@ -39,13 +48,19 @@ body {
     margin: -7em auto 0;
 	
 }
-.jumbotron {
+.jumbotron, #aboutblurbwiki, #aboutblurb, .aboutblurbwiki {
 	background-color: rgba(163, 163, 194,0.5);
 	background-color: rgba(128, 0, 128,0.6);
 
 	
 	
 }
+.aboutblurbwiki {
+	background-color: rgba(128, 0, 128,0.6);
+}
+
+
+
 .myModal1{
 	
 	background-color: rgba(163, 163, 194);
@@ -166,14 +181,30 @@ li {
 	position: relative;
 	margin-bottom: 1.5em;
 	
+	
 }
 #myModal1, strong {
 	color: purple;
 }
-.lead {
+.lead, .donatelead {
 	text-align: center;
 	margin: 0 auto;
+	display: block;
 }
+#donatebtn {
+	margin: 0 auto auto;
+	display: block;
+	position: relative;
+	margin-bottom: 1.5em;
+	max-width: 55%;
+	
+}
+.spacer {
+	height: 350px;
+	
+};
+
+
 .modal-header {
 	
 	
@@ -437,6 +468,70 @@ button:active {
 	margin-left: .5em;
 	margin-right: .5em;
 }
-#aboutblurbwiki {
+.aboutblurbwiki {
 	padding-bottom: 5em;
+	background-color: rgba(186,0,186,0.6);
+	height: 100%;
 }
+#aboutblurb , .aboutlead {
+	text-align: center;
+};
+h2.aboutlead {
+	color: #f0ad4e;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+/* Spacing between about segments */
+#about-profile {	
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin: 0 auto;
+	
+}
+.about-profile {
+	
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin: 100px;
+}
+.jumbotron#aboutblurbwiki, .jumbotron#aboutblurb {
+	
+	background-color: rgba(128,0,128,0.6);
+}
+.emphasis {
+	
+	color: #f0ad4e;
+}
+.avatar#about-profile {
+	
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+p {
+	font-size: 1.5em;
+	
+}
+.orange {
+	
+	color: #f0ad4e;
+	text-align: center;
+}
+.aboutlead.orange {
+	color: #f0ad4e;
+	text-align: center;
+}
+#wikidate, button.close {
+	color:#f0ad4e;
+}
+
+
+.modal-body , .modal-footer, .modal-header {
+background-color: #050402;	
+border: 2px solid black;
+color: #F0AD4E;
+}
+
+

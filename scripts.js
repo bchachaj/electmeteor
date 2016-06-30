@@ -18,6 +18,9 @@ $(document).ready(function(){
 //			Modal contents in Jumbotron 
 
 //Countdown to presidential election
+
+$(document).ready(function () {
+
 var end = new Date('11/8/2016 10:1 AM');
 
     var _millisecond = 1;
@@ -42,16 +45,20 @@ var end = new Date('11/8/2016 10:1 AM');
         var hours = Math.floor((distance % _day) / _hour);
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
-    //    var milliseconds = Math.floor((distance % _second) / _millisecond);
+    
 	
         document.getElementById('countdown').innerHTML = days + ' days ';
         document.getElementById('countdown').innerHTML += hours + ' hrs ';
         document.getElementById('countdown').innerHTML += minutes + ' mins ';
         document.getElementById('countdown').innerHTML += seconds + ' seconds' + ' ';
-       // document.getElementById('countdown').innerHTML += milliseconds +'';
+        
+      
     }
 
     timer = setInterval(showRemaining, 10);
+    
+ }); 
+    
 //function for random number generation
  var randomNumber = Math.floor(Math.random() * (999 - 000 + 1)) + 25;
    var staticNumber = "11";
@@ -107,9 +114,20 @@ $(document).ready(function() {
     });
 
 });
-
+//Wiki citation date generation
 $(document).ready(function() {
 var d = new Date();
-document.getElementById("wikidate").innerHTML = d.toDateString();
+document.getElementById("wikidate").innerHTML = ('Date accessed:' + ' ' + d.toDateString());
+  
 
 });
+
+
+
+
+
+
+
+
+
+
