@@ -1,0 +1,537 @@
+
+html {
+	
+	margin-top: -3%;
+}
+
+
+
+body {
+	
+	background-image: url(../Meteroic/img/pexels-photo-30257-min.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat !important; 
+background-size: cover !important;
+background-position: center !important;
+background-attachment: fixed !important;
+-webkit-background-size: cover !important;
+-moz-background-size: cover !important;
+-o-background-size: cover !important;
+background-size: cover !important;
+    padding-top: 50px;
+	padding-bottom: 20px;
+	color: rgba(255,255,255,0.8);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+
+/*
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 10%; }
+.bgheight { height: auto; }
+*/
+
+#bg {
+	max-width: 100%;
+	height: auto;
+	display:block;
+	padding: 1em;
+	 -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(-5px 6px 5px rgba(0,0,0,0.5));
+  
+	
+}
+.avatar {
+	vertical-align:middle;
+	    max-width: 160px;
+    margin: -7em auto 0;
+	
+}
+.jumbotron, #aboutblurbwiki, #aboutblurb, .aboutblurbwiki {
+	background-color: rgba(163, 163, 194,0.5);
+	background-color: rgba(128, 0, 128,0.6);
+
+	
+	
+}
+.aboutblurbwiki {
+	background-color: rgba(128, 0, 128,0.6);
+}
+
+
+
+.myModal1{
+	
+	background-color: rgba(163, 163, 194);
+	text-align: center;
+}
+
+.modal-body {
+	text-align: center;
+	
+}
+.modal-header {
+	background-color: rgb(128, 0, 128);
+}
+
+#bootstrap-over .btn.btn-lg.btn-warning {
+	background-color:#FC8601;
+	
+};
+#bootstrap-over .btn:hover {
+background-position: 0px;
+background-color:#FC8601;
+}
+
+.btn-warning {
+	
+	 box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #FFFFFF;
+    
+};
+.btn-warning:hover {
+	
+	color: #f0ad4e;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+  
+}
+.btn-warning:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active:hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #fff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn.btn-warning.active, 
+.btn.btn-warning.active:hover {
+    color: #ffffff;
+    background-color: #EB9316;
+    background-image: linear-gradient(to bottom, #EB9316, #EB9316);
+    background-position: 0 0;
+    border-color: #E38D13 #E38D13 #E38D13;
+    
+}
+
+li {
+	
+	
+	 box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #FFFFFF;
+    background-color: #f0ad4e;
+	
+}
+#myBtn1 {
+	color: white;
+	margin: 0 auto auto;
+	display: block;
+	position: relative;
+	margin-bottom: 1.5em;
+	
+	
+}
+#myModal1, strong {
+	color: purple;
+}
+.lead, .donatelead {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+#donatebtn {
+	margin: 0 auto auto;
+	display: block;
+	position: relative;
+	margin-bottom: 1.5em;
+	max-width: 55%;
+	
+}
+.spacer {
+	height: 350px;
+	
+};
+
+
+.modal-header {
+	
+	
+}
+.modal-body { 
+	
+	
+	text-shadow: none;
+	}
+	.nav-pills li a{ 
+		color: white;
+		
+		};
+.nav-pills li {
+	background-color: #E38D13;
+	
+	 box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.075);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.33333;
+     display: inline-block;
+  padding: 0 auto;
+  margin-bottom: 0;
+  font-size: 0.5em;
+  font-weight: normal;
+ 
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #f0ad4e;
+	*background-color: #f0ad4e;
+	background-image: -moz-linear-gradient(top, #f0ad4e, #d58512);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0ad4e), to(#d58512));
+	background-image: -webkit-linear-gradient(top, #f0ad4e, #d58512);
+	background-image: -o-linear-gradient(top, #f0ad4e, #d58512);
+	background-image: linear-gradient(to bottom, #f0ad4e, #d58512);
+	background-repeat: repeat-x;
+	border-color: #d58512;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F08B08', endColorstr='#611BBD', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);      
+}
+.nav-pills li:hover,
+.nav-pills li:focus,
+.nav-pills li:active,
+.nav-pills li.active,
+.nav-pills li.disabled,
+.nav-pills li[disabled] {
+	color: #FFFFFF;
+	background-color: #f0ad4e;
+	*background-color: #d58512;
+}
+.nav-pills li a:active,
+.nav-pills li a.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.nav-pills li a:hover {
+	background-color: s;
+  border-color: #d58512;
+   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #eea43b;
+  background-image: -moz-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0ad4e), to(#ec971f));
+  background-image: -webkit-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: -o-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: linear-gradient(to bottom, #f0ad4e, #ec971f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);
+  border-color: #ec971f #ec971f #b06d0f;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #ec971f;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	
+}
+
+.nav-pills li {
+	
+	margin-left: 5px;
+	margin-right:5px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125) inset;
+	background-image: -moz-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f0ad4e), to(#ec971f));
+  background-image: -webkit-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: -o-linear-gradient(top, #f0ad4e, #ec971f);
+  background-image: linear-gradient(to bottom, #f0ad4e, #ec971f);
+  background-repeat: repeat-x;
+  font-size: 1em;
+	
+}
+@media (max-width: 480px) {
+  .nav-pills li{
+  	width: 99%;
+  	text-align: center;
+  	float: left;
+  	margin: 0 auto;
+  	margin-bottom: 5px;
+  	font-weight: bold;
+  	border-radius: none;
+  	
+   }
+   .nav {
+   	width: 100%;
+   }
+   .text-muted {
+   	width: 100%;
+   }
+   #bg {
+   	max-width: 60%;
+   	clear: both;
+   	margin: 0 auto;
+   	
+   }
+   #myBtn1 {
+   	margin-bottom: 2em;
+   }
+   
+}
+h1 {
+	text-align:center;
+}
+
+.text-muted {
+	/*width: 50%;*/
+	float: left;
+	display: inline block;
+	position: relative;
+	
+}
+#aboutblurb, #aboutblurbwiki {
+background-color: rgba(163, 163, 194,0.5);
+border-radius: 4px;
+margin-bottom: 3%;
+}
+#footer {position: relative;
+	height: 150px;
+	clear:both;} 
+	position: absolute;
+	text-align: center;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 8%;
+  margin-top: 4em;
+  padding-top: -2em;
+  padding: 2em;
+  border-radius: 4px;
+   
+  
+}
+
+	
+/* Contact form */
+
+label {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #999999;
+  margin-left:3%;
+}
+
+input {
+  width: 80%;
+  padding: 0.5em 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #D9D9D9;
+  margin-left:3%;
+  color:black;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  padding: 0.5em 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #D9D9D9;
+  margin-left:3%;
+  color: black;
+}
+
+
+
+button:hover, button:focus {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 1;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+#contactbutton {
+	
+	margin-left:3%;
+	width:20%;
+	margin-top:2%;
+}
+#paragraphs {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+.aboutblurbwiki {
+	padding-bottom: 5em;
+	background-color: rgba(186,0,186,0.6);
+	height: 100%;
+}
+#aboutblurb , .aboutlead {
+	text-align: center;
+};
+h2.aboutlead {
+	color: #f0ad4e;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+/* Spacing between about segments */
+#about-profile {	
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin: 0 auto;
+	
+}
+.about-profile {
+	
+	margin-top: 4em;
+	margin-bottom: 4em;
+	margin: 100px;
+}
+.jumbotron#aboutblurbwiki, .jumbotron#aboutblurb {
+	
+	background-color: rgba(128,0,128,0.6);
+}
+.emphasis {
+	
+	color: #f0ad4e;
+}
+.avatar#about-profile {
+	
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+p {
+	font-size: 1.5em;
+	
+}
+.orange {
+	
+	color: #f0ad4e;
+	text-align: center;
+}
+.aboutlead.orange {
+	color: #f0ad4e;
+	text-align: center;
+}
+#wikidate, button.close {
+	color:#f0ad4e;
+}
+
+
+.modal-body , .modal-footer, .modal-header {
+background-color: #050402;	
+border: 2px solid black;
+color: #F0AD4E;
+}
+
+

@@ -1,0 +1,27 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "grunt": "*",
+    "grunt-shell": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-open": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-bower-install": "*"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-qunit": "^1.2.0"
+  }
+}
