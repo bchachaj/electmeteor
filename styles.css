@@ -8,7 +8,7 @@ html {
 
 body {
 	
-	background-image: url(../Meteroic/img/pexels-photo-30257.jpg);
+	background-image: url(../Meteroic/img/pexels-photo-30257-min.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
     background-repeat: no-repeat !important; 
@@ -362,6 +362,7 @@ margin-bottom: 3%;
 	clear:both;} 
 	position: absolute;
 	text-align: center;
+	font-size: 12px;
 }
 
 html,
@@ -437,7 +438,7 @@ button:active {
 
 .success {
   padding: 1em;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   color: #468847;
   background-color: #dff0d8;
@@ -533,5 +534,14 @@ background-color: #050402;
 border: 2px solid black;
 color: #F0AD4E;
 }
-
+#source , #wikidate {
+	padding-left: 1em;	
+}
+#aboutblurbwiki.#wikidate {
+	font-size: 1em;
+	
+}
+#footer {
+	font-size: 10px;	
+}
 
