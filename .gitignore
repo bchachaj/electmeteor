@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+/bower_components
+
+/.sass-cache/dd8a9e1e85a399a44a89a8177acdc820273f82bb
+/.sass-cache
+/package.json
+
+/jquery.letting.js
+/jquery.textillate.js
+
+/bower.json
+/Gruntfile.js
